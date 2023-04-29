@@ -1,5 +1,25 @@
-<script setup>
+<script>
 import 'tailwindcss/tailwind.css'
+import { apiMethod } from '../helpers/fetch';
+import { getUser, logOutUser } from '../helpers/auth'
+export default {
+  data(){
+    return{
+      isLoggedIn: false
+    }
+  },
+  mounted(){
+    let user = getUser()
+    if (user){
+      this.isLoggedIn = true
+    }
+  },
+  methods:{
+    logOut(){
+      logOutUser()
+    }
+  }
+}
 </script>
 
 <template>
@@ -17,9 +37,11 @@ import 'tailwindcss/tailwind.css'
 
         <a href="/about" class="bg-white text-gray-900 font-bold rounded-none px-3 py-2 h-10 ml-2">ABOUT</a>
 
-        <a href="/register" class="bg-white text-gray-900 font-bold hover:bg-black hover:text-white transition duration-300 border-black border rounded-none px-3 py-2 h-10 ml-2">REGISTER</a>
+        <a v-if="!this.isLoggedIn" href="/register" class="bg-white text-gray-900 font-bold hover:bg-black hover:text-white transition duration-300 border-black border rounded-none px-3 py-2 h-10 ml-2">REGISTER</a>
 
-        <a href="/login" class="bg-white text-gray-900 font-bold border-black hover:bg-black hover:text-white transition duration-300 border rounded-none px-3 py-2 h-10 ml-2">LOGIN</a>
+        <a v-if="!this.isLoggedIn" href="/login" class="bg-white text-gray-900 font-bold border-black hover:bg-black hover:text-white transition duration-300 border rounded-none px-3 py-2 h-10 ml-2">LOGIN</a>
+
+        <a v-if="this.isLoggedIn" @click="logOut()" style="cursor:pointer" class="bg-white text-gray-900 font-bold border-black hover:bg-black hover:text-white transition duration-300 border rounded-none px-3 py-2 h-10 ml-2">LOGOUT</a>
       </div>
     </div>
 

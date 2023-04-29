@@ -1,4 +1,4 @@
-<script setup>
+<script>
 import 'tailwindcss/tailwind.css'
 </script>
 
@@ -15,6 +15,8 @@ import 'tailwindcss/tailwind.css'
           <a href="/register" class="bg-white text-gray-900 font-bold border-black border rounded-none hover:bg-black hover:text-white transition duration-300 px-3 py-2 h-10 ml-2">REGISTER</a>
   
           <a href="/login" class="bg-white text-gray-900 font-bold border-black border rounded-none hover:bg-black hover:text-white transition duration-300 px-3 py-2 h-10 ml-2">LOGIN</a>
+
+          <a href="/login" class="bg-white text-gray-900 font-bold border-black border rounded-none hover:bg-black hover:text-white transition duration-300 px-3 py-2 h-10 ml-2">LOGOUT</a>
         </div>
       </div>
   
