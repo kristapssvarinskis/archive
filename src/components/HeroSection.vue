@@ -2,31 +2,31 @@
   <div class="hero mt-40">
     <div class="text-lg font-bold mx-40">On Archive</div>
     <div class="flex justify-center mt-6">
-      <a href="#" class="mr-4">
+      <a href="/deals" class="mr-4">
         <div class="w-32 h-32 bg-gray-400 flex items-center justify-center">
           <img src="https://media.theeverygirl.com/wp-content/uploads/2019/08/the-everygirl-end-of-summer-outfit-ideas-feature-150x150.jpg" alt="" class="w-30" />
         </div>
         <div class="text-center mt-2 font-bold">Deals</div>
       </a>
-      <a href="#" class="mr-4">
+      <a href="/shirts" class="mr-4">
         <div class="w-32 h-32 bg-gray-400 flex items-center justify-center">
           <img src="https://pbs.twimg.com/media/FIR-0T0XsAQmYd4.jpg" alt="" class="w-30" />
         </div>
         <div class="text-center mt-2 font-bold">Shirts</div>
       </a>
-      <a href="#" class="mr-4">
+      <a href="/jeans" class="mr-4">
         <div class="w-32 h-32 bg-gray-400 flex items-center justify-center">
           <img src="https://balenciagastock.com/wp-content/uploads/2022/10/LOW-CROTCH-JEANS-IN-BLUE.jpg" alt="" class="w-30" />
         </div>
         <div class="text-center mt-2 font-bold">Jeans</div>
       </a>
-      <a href="#" class="mr-4">
+      <a href="/shoes" class="mr-4">
         <div class="w-32 h-32 bg-gray-400 flex items-center justify-center">
           <img src="https://i.etsystatic.com/38360999/r/il/5ce0ff/4395808293/il_fullxfull.4395808293_jzil.jpg" alt="" class="w-30" />
         </div>
         <div class="text-center mt-2 font-bold">Shoes</div>
       </a>
-      <a href="#">
+      <a href="/coats">
         <div class="w-32 h-32 bg-gray-400 flex items-center justify-center">
           <img src="https://canellofabrics.gr/wp-content/uploads/2021/10/Grenfell-Trench-Coat-Beige-150x150.jpg" alt="" class="w-30" />
         </div>
@@ -41,7 +41,7 @@
         <div class="absolute top-0 left-0 bg-black bg-opacity-10 text-white p-4" style="width: calc(100% - 0rem); height: calc(100% - 0rem);">
           <div class="text-xl font-bold mb-2" style="text-shadow: 1px 1px black;">Shop Archive</div>
           <div class="text-lg mb-4" style="text-shadow: 1px 1px black;">Archive is the best online market place to buy and sell clothes, shoes and accessories all in one place. Archive is the place to start your fashion journey!</div>
-          <div class="border-2 border-white inline-block px-4 py-2 font-bold uppercase hover:bg-white hover:text-black transition duration-300" style="text-shadow: 1px 1px black;">Shop Now</div>
+          <a href="/deals" class="border-2 border-white inline-block px-4 py-2 font-bold uppercase hover:bg-white hover:text-black transition duration-300" style="text-shadow: 1px 1px black;">Shop Now</a>
         </div>
       </div>
     </div>

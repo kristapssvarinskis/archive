@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 w-full">
+  <header class="fixed top-0 left-0 w-full z-50">
     <div class="bg-white py-4 px-8 flex items-center justify-between">
       <a href="/">
         <img src="src/assets/Logo.svg" alt="Arcive" class="h-10 px-3">
@@ -47,13 +47,13 @@ export default {
 
     <div class="bg-gray-300 py-1 px-8 flex items-center justify-center">
       <div class="flex items-center justify-center space-x-4">
-        <a href="#" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Menswear</a>
+        <a href="/menswear" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Menswear</a>
 
-        <a href="#" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Womenswear</a>
+        <a href="/womanswear" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Womenswear</a>
 
-        <a href="#" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Shoes</a>
+        <a href="/shoes" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Shoes</a>
 
-        <a href="#" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Accessories</a>
+        <a href="/accessories" class="bg-gray-300 text-gray-900 font-bold rounded-none px-3 py-2 h-10">Accessories</a>
       </div>
     </div>
   </header>
